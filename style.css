@@ -22,21 +22,30 @@ h3{ color: black;
 
 }
  
-di{ border: double;
-  background-color: none;
-  color: black;
+section{
   text-align: center;
-
-
 }
 
 
-body{ background-image: url("funk.jpeg");
+body{ background-image: url(".jpeg");
  background-repeat: no-repeat;
 background-position:center center;
 background-size: cover;
 }
+div{
+  border-style:double;
+  border-width: 10px;
+  border-color:green;
+  border-radius:25px;
+  background-color:;
+  text-align:center;
+}
 
+title{
+text-align:center; 
+
+}
+ 
 header{ 
   background-position: center center ;
   background-position:center center;
@@ -50,6 +59,18 @@ header{
 
 nav ul li{
   display: inline-block;
+}
+ main { border-style:double;
+  border-width: 10px;
+  border-color:green;
+  border-radius:25px;
+  background-color:;
+  text-align:center;
+  display: inline-block;
+  background-color:none;
+  border:solid 10px green;
+  margin:10px 15% 10x 10%;
+
 }
 
 
